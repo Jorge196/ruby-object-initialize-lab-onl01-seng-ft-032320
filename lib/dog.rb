@@ -1,5 +1,8 @@
 class Dog
-  def initialize (name)
-    @name = name
+  attr_accesor: :name, :breed 
 
+  def initialize (name, breed)
+    @name, @breed = name, breed 
+    puts "Mutt"
+  end 
 end
